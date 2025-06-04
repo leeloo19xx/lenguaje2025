@@ -1,0 +1,58 @@
+/* estilo.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #e0f7fa;
+  color: #033649;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6a/Fin_Whale_in_the_Atlantic.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  background-color: rgba(0, 51, 102, 0.85);
+  color: #fff;
+  padding: 2em 1em;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2em;
+  max-width: 900px;
+  margin: 2em auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+  color: #0277bd;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: rgba(0, 102, 204, 0.8);
+  color: white;
+  font-size: 0.9em;
+  margin-top: 2em;
+}
